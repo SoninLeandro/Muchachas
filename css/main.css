@@ -50,7 +50,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #D14E63;
+  color: #7F40CA;
   text-decoration: none;
 }
 
@@ -608,7 +608,7 @@ footer .menu li a {
 }
 
 footer .menu li a:hover {
-  color: #D14E63;
+  color: #7F40CA;
 }
 
 .twitter-content ul li {
@@ -2654,25 +2654,25 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .count-one .icon i {
-  color: #EB586F;
+  color: #7F40CA;
   font-size: 48px;
 }
 
 .count-one .count-value {
-  color: #fff;
+  color: #444;
   font-size: 48px;
   margin-bottom: 20px;
 }
 
 .count-one .count-title {
-  color: #fff;
+  color: #444;
   font-size: 14px;
 }
 
 .width25-divider {
   margin: 20px auto;
   width: 25px;
-  border-color: #fff;
+  border-color: #444;
 }
 
 /* Sliders */
@@ -2973,7 +2973,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .contact-form .form-control:focus {
-  border-color: #EB586F;
+  border-color: #7F40CA;
 }
 
 .contact-form .contact-icon {
@@ -2995,7 +2995,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .contact-form textarea:focus {
-  border-color: #EB586F;
+  border-color: #7F40CA;
 }
 
 .contact-form .form-group {
@@ -3069,7 +3069,7 @@ address i {
 }
 
 .form-control:focus {
-  border-color: #EB586F;
+  border-color: #7F40CA;
 }
 
 .form-group input {
@@ -3099,7 +3099,7 @@ address i {
 }
 
 #contactForm .form-control:focus {
-  border-color: #EB586F;
+  border-color: #7F40CA;
 }
 
 #contactForm textarea {
@@ -3126,12 +3126,12 @@ address i {
 }
 
 .has-error .form-control {
-  color: #ec7160 !important;
-  border: 1px solid #ec7160 !important;
+  color: #7F40CA !important;
+  border: 1px solid #7F40CA !important;
 }
 
 .help-block.with-errors li {
-  color: #ec7160;
+  color: #7F40CA;
   font-size: 13px;
   margin-top: -30px;
   margin-bottom: 0;
@@ -3244,7 +3244,7 @@ address i {
 }
 
 .log-line .checkbox-primary label {
-  color: #EB586F;
+  color: #7F40CA;
 }
 
 .forgot-password {
@@ -3279,27 +3279,27 @@ address i {
 }
 
 .label-default {
-  color: #EB586F;
+  color: #7F40CA;
   background-color: transparent;
-  border: 2px solid #EB586F;
+  border: 2px solid #7F40CA;
 }
 
 .label-default-filled {
   color: #fff;
-  background-color: #EB586F;
-  border: 2px solid #EB586F;
+  background-color: #7F40CA;
+  border: 2px solid #7F40CA;
 }
 
 .label-primary {
-  color: #EB586F;
+  color: #7F40CA;
   background-color: transparent;
-  border: 2px solid #EB586F;
+  border: 2px solid #7F40CA;
 }
 
 .label-primary-filled {
   color: #fff;
-  background-color: #EB586F;
-  border: 2px solid #EB586F;
+  background-color: #7F40CA;
+  border: 2px solid #7F40CA;
 }
 
 .label-success {
