@@ -2281,7 +2281,7 @@ nav#menu span.fa.fa-bars:hover {
 .featured-box-item .featured-icon i {
   width: 70px;
   height: 70px;
-  color: #EB586F;
+  color: #7F40CA;
   border: 2px solid #f1f1f1;
   text-align: center;
   line-height: 70px;
@@ -2305,7 +2305,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .featured-box-item:hover .featured-icon i {
-  background: #EB586F;
+  background: #7F40CA;
   color: #fff;
 }
 
