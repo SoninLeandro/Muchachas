@@ -157,6 +157,15 @@ a a:focus {
     outline: none;
     background: #f8f9fa;
   }
+  #training {
+    background-position: left;
+  }
+  #training h2, h4, p {
+    color: #222;
+  }
+  #empty {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {

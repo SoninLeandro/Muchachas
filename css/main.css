@@ -1628,8 +1628,12 @@ nav#menu span.fa.fa-bars:hover {
   background-size: cover;
 }
 
+#training h2 {
+  margin-top: -20px;
+}
+
 #training h2, h4, p {
-  color: #000;
+  color: #444;
 }
 
 .service-box {
@@ -4247,16 +4251,6 @@ ul.nav-tabs li a {
   }
   .label {
     padding: 0;
-  }
-}
-
-@media (max-width: 990px) {
-  #empty {
-    display: none;
-  }
-
-  #training {
-    background-position: left ;
   }
 }
 
