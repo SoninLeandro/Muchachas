@@ -62,6 +62,7 @@ p {
   color: #444;
   letter-spacing: 0px;
   margin-bottom: 10px;
+  text-align: justify;
 }
 
 ul, li {
@@ -470,7 +471,7 @@ footer #copyright .nav-inline {
   height: 35px;
   text-align: center;
   display: inline-block;
-  border: 1px solid #7F40CA;
+  border: 1px solid #444;
   line-height: 35px;
   margin: 4px;
   width: 35px;
@@ -492,10 +493,10 @@ footer #copyright .nav-inline {
   border-color: #55acee;
 }
 
-.social-footer .fa-linkedin:hover {
-  background: #007bb6;
-  color: #fff;
-  border-color: #007bb6;
+.social-footer .fa-instagram:hover {
+  background: #fff;
+  color: #dc4949;
+  border-color: #dc4949;
 }
 
 .social-footer .fa-google-plus:hover {
@@ -1620,6 +1621,17 @@ nav#menu span.fa.fa-bars:hover {
   padding: 30px 0;
 }
 
+#training {
+  background-image: url(../img/about/afa-background2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#training h2, h4, p {
+  color: #000;
+}
+
 .service-box {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -2040,7 +2052,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .about h5 a:hover {
-  color: #EB586F;
+  color: #7F40CA;
 }
 
 .about.block img {
@@ -2282,7 +2294,7 @@ nav#menu span.fa.fa-bars:hover {
   width: 70px;
   height: 70px;
   color: #7F40CA;
-  border: 2px solid #f1f1f1;
+  border: 2px solid #7F40CA;
   text-align: center;
   line-height: 70px;
   font-size: 30px;
@@ -2636,7 +2648,7 @@ nav#menu span.fa.fa-bars:hover {
 /*  End Progress Bars */
 /* Caounter Style */
 #counter {
-  background-image: url(../img/about/AFA\ background\ img.png);
+  
   background-size: cover;
   padding: 60px 0;
   height: 600px;
@@ -2995,7 +3007,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .contact-form textarea:focus {
-  border-color: #7F40CA;
+  border-color: #444;
 }
 
 .contact-form .form-group {
@@ -4235,6 +4247,16 @@ ul.nav-tabs li a {
   }
   .label {
     padding: 0;
+  }
+}
+
+@media (max-width: 990px) {
+  #empty {
+    display: none;
+  }
+
+  #training {
+    background-position: left ;
   }
 }
 
