@@ -10,7 +10,7 @@
 }
 .section-padding{
   padding: 60px 0!important;
-  
+  background-color: #282828;
 }
 .controls{
 	padding: 0px!important;
@@ -310,7 +310,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 a:not([href]):not([tabindex]) {
-  color: #222;
+  color: #7C7C7C;
 }
 
 a:focus:not([href]):not([tabindex]), a:hover:not([href]):not([tabindex]) {

@@ -819,7 +819,7 @@ footer .menu li a:hover {
 
 /* Default Button */
 .btn-common, .btn-common:active, .btn-common:focus {
-  color: #7F40CA;
+  color: #fff;
   border: 2px solid #7F40CA;
   background: transparent;
 }
@@ -1622,7 +1622,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 #training {
-  background-image: url(../img/about/afa-background2.png);
+  background-image: url(../img/afa-background2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2093,6 +2093,10 @@ nav#menu span.fa.fa-bars:hover {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 30px;
+}
+
+.staff-member {
+  color: #fff;
 }
 
 #single-testimonial-item .item {
@@ -2996,7 +3000,7 @@ nav#menu span.fa.fa-bars:hover {
   left: 34px;
   position: absolute;
   top: 16px;
-  color: #444;
+  color: #fff;
 }
 
 .contact-form textarea {
@@ -3027,7 +3031,7 @@ nav#menu span.fa.fa-bars:hover {
 .contact-info a {
   display: block;
   font-size: 14px;
-  color: #444;
+  color: #fff;
   margin-bottom: 10px;
   position: relative;
   font-weight: 400;
@@ -3044,7 +3048,7 @@ nav#menu span.fa.fa-bars:hover {
 
 address {
   font-size: 14px;
-  color: #444;
+  color: #fff;
   line-height: 1.8;
 }
 
@@ -3058,6 +3062,7 @@ address i {
 
 .social-links li {
   display: inline-block;
+  
 }
 
 .social-links li a {
@@ -3065,6 +3070,10 @@ address i {
   font-size: 18px;
   padding-left: 0;
   margin: 10px 20px 0 0;
+}
+
+.social-footer li {
+  color: #FFF;
 }
 
 .form-control {
