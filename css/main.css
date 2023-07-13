@@ -494,9 +494,9 @@ footer #copyright .nav-inline {
 }
 
 .social-footer .fa-instagram:hover {
-  background: #fff;
-  color: #dc4949;
-  border-color: #dc4949;
+  background: #fb3958;
+  color: #fff;
+  border-color: #fb3958;
 }
 
 .social-footer .fa-google-plus:hover {
@@ -2899,6 +2899,10 @@ nav#menu span.fa.fa-bars:hover {
   -o-transition: all 0.4s ease-in-out;
 }
 
+#slider-image {
+  height: 930px;
+}
+
 .carousel-post {
   margin-right: 15px;
 }
@@ -3800,7 +3804,7 @@ a:focus:not([href]):not([tabindex]), a:hover:not([href]):not([tabindex]) {
 .portfolio-item:hover .sup-link .right-link,
 .portfolio-item:hover .sup-link .left-link {
   opacity: 1;
-  webkit-transform: translateY(0px);
+  -webkit-transform: translateY(0px);
   transform: translateY(0px);
 }
 
@@ -4331,7 +4335,7 @@ ul.nav-tabs li a {
     font-size: 14px;
   }
   #carousel-area .carousel-item .carousel-caption {
-    top: 5%;
+    top: 30%;
   }
   #carousel-area .carousel-item .carousel-caption h3 {
     font-size: 26px;
@@ -4436,7 +4440,7 @@ ul.nav-tabs li a {
     height: 175px;
   }
   #carousel-area .carousel-item .carousel-caption {
-    top: 2%;
+    top: 20%;
   }
   #carousel-area .carousel-item .carousel-caption h3 {
     font-size: 14px;

@@ -10,7 +10,7 @@
 }
 .section-padding{
   padding: 60px 0!important;
-  background-color: #282828;
+  background-color: #1D1D1D;
 }
 .controls{
 	padding: 0px!important;
@@ -87,7 +87,7 @@ a a:focus {
 .navbar-expand-lg .navbar-nav .nav-link.active,
 .navbar-expand-lg .navbar-nav .nav-link.open,
 .navbar-expand-lg .navbar-nav .open > .nav-link {
-  color: #220544  !important;
+  color: #1D1D1D  !important;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:focus,
@@ -120,6 +120,9 @@ a a:focus {
 @media (min-width: 768px) and (max-width: 991px) {
   #nav-main li a.nav-link {
     padding-top: 18px;
+  }
+  #slider-image {
+    height: 100%;
   }
 }
 
@@ -166,6 +169,9 @@ a a:focus {
   #empty {
     display: none;
   }
+  #slider-image {
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -186,6 +192,9 @@ a a:focus {
   .slicknav_menu {
     display: block;
   }
+  .slicknav_menu ul {
+    margin-top: 60px;
+  }
   .slicknav_nav .active a {
     background: #E91E63;
     color: #fff;
@@ -197,7 +206,9 @@ a a:focus {
     outline: none;
     background: #f8f9fa;
   }
+
 }
+
 /* ScrollToTop */
 a.back-to-top {
   display: none;
@@ -295,7 +306,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #portfolio {
-  background: #F6F6F6;
+  background: #1D1D1D;
   width: 100%;
 }
 
