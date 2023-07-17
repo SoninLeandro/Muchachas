@@ -4,6 +4,12 @@
     width: 48%;
     max-height: 100px;
   }
+  .section-padding {
+    padding: 100px 0!important;
+  }
+  #contact {
+    margin-bottom: 0;
+  }
 }
 
 /* tablets */
@@ -17,6 +23,12 @@
   }
   .navbar-brand img {
     max-height: 100px;
+  }
+  .section-padding {
+    padding: 100px 0!important;
+  }
+  #contact {
+    margin-bottom: 0;
   }
 }
 
@@ -96,8 +108,8 @@
   .client-item-wrapper img {
     width: 70%;
   }
-  .pricing-table-item {
-    margin-bottom: 30px;
+  .staff-member {
+    text-align: center;
   }
   .title-head, .contact-info-title {
     font-size: 22px;

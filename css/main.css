@@ -1623,13 +1623,14 @@ nav#menu span.fa.fa-bars:hover {
 
 #training {
   background-image: url(../img/afa-background2.png);
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
 
 #training h2 {
-  margin-top: -20px;
+  margin: 0 auto;
+  
 }
 
 #training h2, h4, p {
@@ -2985,7 +2986,7 @@ nav#menu span.fa.fa-bars:hover {
 
 /* Forms */
 .title-head {
-  color: #444;
+  color: #585b60;;
   font-size: 30px;
   margin-bottom: 30px;
 }
@@ -3027,7 +3028,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .contact-info-title {
-  color: #444;
+  color: #585b60;;
   font-size: 24px;
   margin-bottom: 25px;
 }
