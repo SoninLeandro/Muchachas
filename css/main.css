@@ -612,6 +612,10 @@ footer .menu li a:hover {
   color: #7F40CA;
 }
 
+#footer-row {
+  justify-content: space-between;
+}
+
 .twitter-content ul li {
   margin-bottom: 10px;
   padding-bottom: 10px;
@@ -2152,7 +2156,7 @@ nav#menu span.fa.fa-bars:hover {
 /* / End About */
 /* Start Tesitmonial  */
 .single-testimonial-area {
-  background-image: url(../img/cropped-1920-600-772576.jpg);
+  background-image: url(../img/ball_background.jpg);
   background-size: cover;
   padding: 60px 0;
   height: 300px;
