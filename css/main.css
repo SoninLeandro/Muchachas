@@ -467,11 +467,12 @@ footer #copyright .nav-inline {
 }
 
 .social-footer a i {
-  font-size: 14px;
+  font-size: 19px;
   height: 35px;
   text-align: center;
   display: inline-block;
-  /*border: 1px solid #444;*/
+  border: 1px solid #f6f6f6;
+  border-radius: 5%;
   line-height: 35px;
   margin: 4px;
   width: 35px;
@@ -3052,7 +3053,7 @@ nav#menu span.fa.fa-bars:hover {
 
 .contact-info a {
   display: block;
-  font-size: 14px;
+  font-size: 18px;
   color: #fff;
   margin-bottom: 10px;
   position: relative;
@@ -3069,7 +3070,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 address {
-  font-size: 14px;
+  font-size: 18px;
   color: #fff;
   line-height: 1.8;
 }
