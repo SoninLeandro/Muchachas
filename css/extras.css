@@ -9,7 +9,7 @@
   position: relative;
 }
 .section-padding{
-  padding: 150px 0!important;
+  padding: 120px 0!important;
   background-color: #1D1D1D;
 }
 .controls{
@@ -294,6 +294,28 @@ a.back-to-top:hover, a.back-to-top:focus {
     transform: rotate(360deg);
   }
 }
+#title {
+  background-image: url(../img/sliders/IMG_6558.JPG);
+}
+
+#header-image {
+  width: 100vh;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+
+
+
+
+
+
 
 /* / Sliders */
 

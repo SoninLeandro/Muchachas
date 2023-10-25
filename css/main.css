@@ -452,10 +452,6 @@ footer .contact-us .form-control {
   border-radius: 0px;
 }
 
-footer #copyright {
-  background: #1D1D1D;
-}
-
 footer #copyright .row {
   padding: 10px 0;
 }
@@ -663,7 +659,7 @@ footer .menu li a:hover {
 }
 
 #copyright {
-  background-color: #1d1e20;
+  
   padding: 20px 0 10px;
   color: #fff;
 }
@@ -2135,11 +2131,13 @@ nav#menu span.fa.fa-bars:hover {
 #single-testimonial-item .owl-controls .owl-buttons div.owl-prev {
   float: left;
   margin-left: -45px;
+  border: solid 1px black;
 }
 
 #single-testimonial-item .owl-controls .owl-buttons div.owl-next {
   float: right !important;
   margin-right: -45px;
+  border: solid 1px black;
 }
 
 .owl-theme .owl-buttons div {
@@ -2715,6 +2713,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 /* Sliders */
+
 /* Dark Slider */
 #dark-slider h3 {
   color: #ccc;
@@ -2878,6 +2877,18 @@ nav#menu span.fa.fa-bars:hover {
   z-index: 2;
 }
 
+#carousel-are .carousel-item img {
+  width: 100vh;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
 #carousel-area .carousel-item .carousel-caption {
   top: 28%;
   right: 10%;
@@ -2919,7 +2930,15 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 #slider-image {
-  height: 930px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /*position: fixed;*/
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
 }
 
 .carousel-post {
@@ -3954,6 +3973,7 @@ a:focus:not([href]):not([tabindex]), a:hover:not([href]):not([tabindex]) {
 
 figure {
   display: inline-block;
+  max-width: 400px;
 }
 
 #portfolio .portfolio.block {
@@ -4454,9 +4474,6 @@ ul.nav-tabs li a {
   .count-one {
     margin-top: 40px;
     margin-bottom: 40px;
-  }
-  .carousel-inner {
-    height: 175px;
   }
   #carousel-area .carousel-item .carousel-caption {
     top: 20%;
