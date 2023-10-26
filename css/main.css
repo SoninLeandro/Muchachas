@@ -7,7 +7,7 @@ More Info: https://uideck.com/products/helium-ui-kit
 @import url("https://fonts.googleapis.com/css?family=Rubik:400,700|Montserrat:700");
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
-  color: #444;
+  color: #36224d;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 0px;
@@ -2059,7 +2059,8 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .about {
-  margin: 10px;
+  margin: 20px auto;
+  max-width: 300px;
 }
 
 .about h5 {

@@ -164,7 +164,7 @@ a a:focus {
     background-position: left;
   }
   #training h2, h4, p {
-    color: #222;
+    color: #36224d;
   }
   #empty {
     display: none;
@@ -295,8 +295,28 @@ a.back-to-top:hover, a.back-to-top:focus {
   }
 }
 #title {
-  background-image: url(../img/sliders/IMG_6558.JPG);
+  height: 100vh;
+  background-image: url(../img/sliders/gate_net_sun.jpg);
+  background-position: center;
+  background-size: cover;
 }
+
+#title .container {
+  height: 100%;
+  max-width: 100%;
+}
+
+#title .row {
+  position: relative;
+  top: 23%;
+}
+
+#title .title-header {
+  text-align: center;
+}
+  .title-header h1, h3 {
+    color: #36224d;
+  }
 
 #header-image {
   width: 100vh;
